@@ -1,0 +1,24 @@
+<div class="main-content">
+    <div class="container-fluid">
+      <div class="card card-plain">
+        <div class="card-header card-header-danger">
+          <h4 class="card-title">Material Design Icons</h4>
+          <p class="card-category">
+            Handcrafted by our friends from
+            <a target="_blank" href="https://fonts.google.com/icons">Google</a>
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card-body text-center">
+              <div class="icon-container" *ngFor="let icon of icons">
+                <i class="material-icons">{{ icon.name }}</i>
+                <p>{{ icon.label }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

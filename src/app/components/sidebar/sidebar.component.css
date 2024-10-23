@@ -1,0 +1,24 @@
+.name{
+    margin-left: 50px;
+}
+
+
+.sidebar-wrapper {
+    width: 250px;
+    background-color: #fff; /* Cambiar según tu tema */
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+}
+
+.mat-nav-list {
+    padding: 0;
+}
+
+.expand-icon {
+    margin-left: auto;
+}
+
+.submenu {
+    padding-left: 20px; /* Ajustar el padding para el submenú */
+}

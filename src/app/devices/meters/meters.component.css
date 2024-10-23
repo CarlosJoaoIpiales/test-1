@@ -1,0 +1,46 @@
+.meters {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.table{
+    background-color: white;
+}
+
+.header-meters{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.header-meters button{
+    background-color: #303f9f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+
+.action-button{
+    margin: 5px;
+}
+
+.paginator{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
